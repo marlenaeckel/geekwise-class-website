@@ -39,6 +39,26 @@ a:hover {
     color:#26745a;
 }
 
+figure {
+    padding:25px;
+    background-color:#D17FFB;
+    display:inline-block;
+    border-radius:15px;
+    /*box-shadow:5px 5px 5px #000;*/
+}
+
+figcaption {
+    text-align:center;
+    font-size:1.2em;
+    color:#000;
+}
+
+main {
+    width:1200px;
+    overflow:hidden;
+    margin:20px auto;
+}
+
 /*HEADER STYLES*/
 
 
@@ -49,6 +69,9 @@ header {
 
 #logo {
     color:#f9daed;
+    position:relative;
+    top:20px;
+    left:20px;
 }
 #logo:hover {
     color:#742667;
@@ -69,5 +92,85 @@ header {
     color:#fff;
     font-size:6em;
     text-align:center;
-    text-shadow:6px 6px #000;
+    text-shadow:6px 6px 4px #000;
+}
+
+/*NAVIGATION STYLES*/
+#menu {
+    position:absolute;
+    top:23px;
+    right:20px;
+    
+}
+
+#menu ul li {
+    display:inline-block;
+    margin:0px 12px;
+}
+
+.currentPage {
+    color:#8DC63F;
+}
+
+/*THREE COLUMNS STYLES*/ 
+
+.columnA, .columnB, .columnC {
+    width:384px;
+}
+
+.columnA, .columnB {
+    float:left;
+    margin-right:24px;
+}
+
+.columnC {
+    float:left;
+}
+
+.columnA h2, .columnB h2, .columnC h2 {
+    font-size:2.5em;
+    font-weight:700;
+    text-align:center;
+    margin:15px 0px;
+}
+
+.columnA p, .columnB p, .columnC p {
+    padding:0px;
+    text-align:justify;
+}
+
+.columnA span, .columnB span, .columnC span {
+    background-color:#daf9f6;
+    color:#000;
+    display:block;
+    font-size:1.75em;
+    font-weight:600;
+    text-align:center;
+    padding:15px 0px;
+}
+
+/*BUTTON STYLES*/
+.button {
+    background-color:#6666ff;
+	border-radius:8px;
+	padding:15px 30px;
+	text-decoration:none;
+	color:#000;
+	display:inline-block;
+	font-weight:900;
+}
+
+.button:hover {
+    background-color:#666699
+}
+
+.buttonTwo {
+    background-color:#000;
+    border-radius:16px;
+    padding:20px 8px;
+    text-decoration:none;
+    color:#fff;
+    display:inline-block;
+    font-weight:400;
+    position:absolute;
 }
